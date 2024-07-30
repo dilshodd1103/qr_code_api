@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "qr_code_api"
+version = "0.1.0"
+description = ""
+authors = ["Dilshodbek <149224509+dilshodd1103@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+dependency-injector = "^4.41.0"
+fastapi = "^0.111.0"
+qrcode = "^7.4.2"
+python-ulid = "^2.7.0"
+pillow = "^10.4.0"
+pypng = "^0.20220715.0"
+pyzbar = "^0.1.9"
+pyqrcode = "^1.2.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
